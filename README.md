@@ -1,34 +1,36 @@
-# Custom Microcontroller Development Board Design 🛠️
+# Custom STM32 Development Board Design 🛠️
 
-An open-source, custom microcontroller development board designed from scratch using **KiCad**. This project covers the entire hardware development lifecycle, including schematic capture, component selection, power management design, two-layer PCB layout routing, and 3D visualization.
+An open-source, custom STM32 microcontroller development board designed from scratch using **KiCad**. This project covers the entire hardware development lifecycle, including schematic capture, component selection, power management design, two-layer PCB layout routing, and 3D visualization.
 
 ---
 
 ## 📸 Hardware Gallery & Visuals
 
-### 1. Full PCB Layout & Routing
-![image](https://github.com/user-attachments/assets/400efb29-909e-4c60-8e15-78e8cb12e6f3)
+### 1. Schematic Design & Architecture
+![Schematic](https://github.com/user-attachments/assets/2f07b14-c551-4088-9bf2-24acaeafc932)
 
-*Detailed view of the PCB routing, trace widths optimized for power lines, and strategic via placements.*
+*Clean and structured schematic diagram featuring the STM32 microcontroller pinouts, crystal oscillators, decoupling capacitors, peripheral interfaces, and voltage regulation circuit.*
 
-### 2. 3D Model View (Top & Isometric)
-![image](https://github.com/user-attachments/assets/22cc8107-48d1-4b13-a626-07a26d4fc03d)
+### 2. 3D Model View (Top Side)
+![Top View](https://github.com/user-attachments/assets/22cc8107-48d1-4b13-a626-07a26d4fc03d)
 
-*3D rendering of the populated development board showcasing component alignments, connectors, and form-factor optimization.*
+*3D rendering of the populated top side, showcasing component alignments, RGB status LED, push buttons, micro-USB interface, and peripheral headers.*
 
-### 3. Schematic Design & Architecture
-![image](https://github.com/user-attachments/assets/2f07bf14-c551-4088-9bf2-24acaeafc932)
+### 3. 3D Model View (Bottom Side)
+![Bottom View](https://github.com/user-attachments/assets/400efb29-909e-4c60-8e15-78e8cb12e6f3)
 
-*Clean and structured schematic diagram featuring microcontroller pinouts, decoupling capacitors, peripheral interfaces, and voltage regulation circuit.*
+*3D rendering of the bottom side, featuring the power management component placement, ground planes, and custom silkscreen branding.*
 
 ---
 
 ## ⚡ Technical Specifications & Features
 
 * **EDA Tool:** KiCad (Schematic Capture & PCB Layout)
-* **Power Management:** On-board low-dropout (LDO) voltage regulators with proper filtering/decoupling capacitors for stable microcontroller operation.
-* **Signal Integrity:** Designed with short return paths, proper ground planes, and optimized routing for high-frequency crystal oscillators and communication lines.
-* **Peripherals:** Integrated essential debugging interfaces, boot configuration pins, and easily accessible GPIO headers.
+* **Microcontroller:** STM32 Series (LQFP-48 Package)
+* **Power Management:** On-board low-dropout (LDO) voltage regulator circuit with proper filtering capacitors for stable operation.
+* **Signal Integrity:** Designed with short return paths, clear ground plane separation, and optimized routing for high-frequency (HSE) and low-frequency (LSE) crystal oscillators.
+* **UI & Peripherals:** Integrated Reset/User buttons, an RGB LED indicator, boot mode configuration jumpers, and easily accessible breakout headers for all GPIOs.
+* **Aesthetics:** Custom silkscreen layer layout featuring personalized branding.
 
 ---
 
