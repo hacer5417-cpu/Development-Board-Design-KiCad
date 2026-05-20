@@ -7,7 +7,8 @@ An open-source, custom STM32 microcontroller development board designed from scr
 ## 📸 Hardware Gallery & Visuals
 
 ### 1. Schematic Design & Architecture
-![Schematic](https://github.com/user-attachments/assets/2f07b14-c551-4088-9bf2-24acaeafc932)
+<img width="850" height="572" alt="image" src="https://github.com/user-attachments/assets/c0ca23ad-6389-4770-b6c0-bf3ab891786e" />
+
 
 *Clean and structured schematic diagram featuring the STM32 microcontroller pinouts, crystal oscillators, decoupling capacitors, peripheral interfaces, and voltage regulation circuit.*
 
@@ -17,7 +18,8 @@ An open-source, custom STM32 microcontroller development board designed from scr
 *3D rendering of the populated top side, showcasing component alignments, RGB status LED, push buttons, micro-USB interface, and peripheral headers.*
 
 ### 3. 3D Model View (Bottom Side)
-![Bottom View](https://github.com/user-attachments/assets/400efb29-909e-4c60-8e15-78e8cb12e6f3)
+<img width="806" height="533" alt="image" src="https://github.com/user-attachments/assets/372e9d3b-d23f-4aca-896f-c6df0633e819" />
+
 
 *3D rendering of the bottom side, featuring the power management component placement, ground planes, and custom silkscreen branding.*
 
