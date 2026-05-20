@@ -1,4 +1,4 @@
-# Custom STM32 Development Board Design 🛠️
+# STM32 Development Board Design 🛠️
 
 An open-source, custom STM32 microcontroller development board designed from scratch using **KiCad**. This project covers the entire hardware development lifecycle, including schematic capture, component selection, power management design, two-layer PCB layout routing, and 3D visualization.
 
