@@ -1,10 +1,10 @@
-# STM32 Development Board Design 🛠️
+# STM32 Development Board Design 
 
 An open-source, custom STM32 microcontroller development board designed from scratch using **KiCad**. This project covers the entire hardware development lifecycle, including schematic capture, component selection, power management design, two-layer PCB layout routing, and 3D visualization.
 
 ---
 
-## 📸 Hardware Gallery & Visuals
+## Hardware Gallery & Visuals
 
 ### 1. Schematic Design & Architecture
 <img width="850" height="572" alt="image" src="https://github.com/user-attachments/assets/c0ca23ad-6389-4770-b6c0-bf3ab891786e" />
@@ -25,7 +25,7 @@ An open-source, custom STM32 microcontroller development board designed from scr
 
 ---
 
-## ⚡ Technical Specifications & Features
+## Technical Specifications & Features
 
 * **EDA Tool:** KiCad (Schematic Capture & PCB Layout)
 * **Microcontroller:** STM32 Series (LQFP-48 Package)
@@ -36,6 +36,6 @@ An open-source, custom STM32 microcontroller development board designed from scr
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 * Automated hardware validation and basic firmware testing (Blinky, UART communication).
 * Designing an external enclosure model using CAD tools.
